@@ -11,4 +11,4 @@
 CREATE USER 'user'@'localhost' IDENTIFIED BY 'password';
 GRANT SELECT, INSERT, UPDATE, DELETE ON mochtree.* TO 'user'@'localhost';
 ```
-3. `localhost/mochtree/index.php`から 開く．
+3. `localhost/MochTree/index.php`から 開く．
