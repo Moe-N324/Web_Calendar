@@ -1,0 +1,78 @@
+@charset "utf-8";
+body{
+	height: 100%;
+}
+#banner_lef{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 30px;
+	background-image: url("../img/background-border.png");
+	background-repeat: repeat-x;
+}
+#banner_rig{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 50%;
+	height: 30px;
+	background-image: url("../img/background-border.png");
+	background-repeat: repeat-x;
+}
+#main{
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 100%;
+	height: calc(100% - 30px);
+	background: #ffffff;
+}
+.calendar{
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+.rowbox{
+	border-bottom: 1px solid gray;
+}
+.calendar th{
+	border: solid 1px #aa0000;
+	background-image: url("../img/background-border.png");
+	background-repeat: repeat-x;
+	background-size: auto 100%;
+}
+.calendar tr.row4{
+	height: 25%;
+}
+.calendar tr.row5{
+	height: 20%;
+}
+.calendar tr.row6{
+	height: calc(100% / 6);
+}
+
+.b{
+	color: #00f;
+}
+.r{
+	color: #f00;
+}
+.daybox{
+	table-layout: fixed;
+	width: 100%;
+	height: 100%;
+}
+.daybox tr.suji_row{
+	height: 20%;
+	text-align: center;
+}
+.daybox tr.yotei_row{
+	height: 20%;
+}
+.daybox tr.yotei_row td{
+	font-size: 50%;
+	border-radius: 5px;
+}
